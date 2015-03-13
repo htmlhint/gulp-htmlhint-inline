@@ -1,0 +1,38 @@
+<?php
+ecoh 'htmlhint-inline';
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gulp htmlhint-inline</title>
+    <script>
+        var a, b, c;
+        <?php if(true): ?>
+            var test = 'test';
+        <?prp endif: ?>
+        console.log(test);
+    </script>
+</head>
+<body>
+<?php /*
+    // test comment area
+    <div>
+        <?php // echo 'test'; ?>
+        <img src="" alt="">
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+*/?>
+    <p>hoge</p>
+    <ul id="test" class="<?php echo 'test'; ?>" data-list="<?php echo 'list'; ?>">
+    <?php foreach($array as $val): ?>
+        <li class="item">
+            <a onlick="void(0);" href="<?php echo 'https://github.com'; ?>">github</a>
+        </li>
+    <?php endforeach; ?>
+    </ul>
+    <small>hogemoge</small>
+</body>
+</html>
