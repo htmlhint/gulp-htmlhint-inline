@@ -1,6 +1,8 @@
 gulp-htmlhint-inline
 ================
 
+[![NPM](https://nodei.co/npm/gulp-htmlhint-inline.png)](https://nodei.co/npm/gulp-htmlhint-inline/)
+
 ## Usage
 
 First, install `gulp-htmlhint-inline` as a development dependency:
