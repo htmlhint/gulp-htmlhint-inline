@@ -1,7 +1,7 @@
 {
   "name": "gulp-htmlhint-inline",
   "description": "Gulp plugin for linting inline html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/kazu69/gulp-htmlhint-inline",
   "main": "index.js",
   "author": {
