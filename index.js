@@ -1,7 +1,6 @@
 var fs = require('fs'),
     through2 = require('through2'),
     gutil = require('gulp-util'),
-    tempfile = require('tempfile'),
     HTMLHint = require('htmlhint').HTMLHint,
     PluginError = gutil.PluginError;
 
