@@ -34,7 +34,7 @@ var removeTagEachLIne = function(lines, start, end) {
           lines[i] = '';
         }
         else if(stops) {
-          lines[i] = '';
+          if(tagSection) { lines[i] = ''; }
           tagSection = false;
         }
 
