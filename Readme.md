@@ -1,6 +1,8 @@
 gulp-htmlhint-inline
 ================
 
+[![Build Status](https://drone.io/github.com/kazu69/gulp-htmlhint-inline/status.png)](https://drone.io/github.com/kazu69/gulp-htmlhint-inline/latest)
+
 [![NPM](https://nodei.co/npm/gulp-htmlhint-inline.png)](https://nodei.co/npm/gulp-htmlhint-inline/)
 
 ## Usage
