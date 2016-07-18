@@ -4,15 +4,8 @@ ecoh 'htmlhint-inline';
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>gulp htmlhint-inline</title>
-    <script>
-        var a, b, c;
-        <?php if(true): ?>
-            var test = 'test';
-        <?prp endif: ?>
-        console.log(test);
-    </script>
 </head>
 <body>
 <?php /*
@@ -34,5 +27,12 @@ ecoh 'htmlhint-inline';
     <?php endforeach; ?>
     </ul>
     <small>hogemoge</small>
+    <script>
+        var a, b, c;
+        <?php if(true): ?>
+            var test = 'test';
+        <?prp endif: ?>
+        console.log(test);
+    </script>
 </body>
 </html>
