@@ -86,7 +86,7 @@ var hint = function(file, options) {
 
     if(options.patterns) { patterns = options.patterns || []; }
 
-    if (options.htmlhintrc && options.htmlhintrc === typeof String) {
+    if (options.htmlhintrc && typeof options.htmlhintrc === 'string') {
         try {
             var htmlhintrc = fs.readFileSync(options.htmlhintrc);
             htmlhintrcRuleset = JSON.parse(htmlhintrc);
