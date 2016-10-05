@@ -1,0 +1,7 @@
+.git
+test
+.gitignore
+.jshintrc
+.htmlhintrc
+.npmignore
+gulpfile.js
