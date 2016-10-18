@@ -143,7 +143,7 @@ gulpHtmlhintInline.defaultReporter = function(file) {
     if(report.success) { log(color.green(file.path + ' lint free.')); }
 
     if(!report.success) {
-        log(color.cyan(report.length) + ' error' + (report.length === 1 ? '' : 's') + ' found');
+        log(color.cyan(report.length) + ' error' + (report.length === 1 ? '' : 's') + ' found at ' + color.gray(file.path));
 
         report.forEach(function(message) {
             var evidence = message.evidence,
@@ -176,7 +176,7 @@ gulpHtmlhintInline.failReporter = function() {
         (fails = fails || []).push(file.path);
 
         if(file.htmlhint_inline && file.htmlhint_inline.length !== 0) {
-            error =  new PluginError(PLUGIN_NAME, {
+            error = new PluginError(PLUGIN_NAME, {
                 message: PLUGIN_NAME + ' failed for: ' + fails.join(', '),
                 showStack: false
             });
