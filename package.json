@@ -22,7 +22,7 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "gulp-util": "^3.0.7",
+    "gulp-util": "^3.0.8",
     "htmlhint": "^0.9.12",
     "through2": "^2.0.1"
   },
