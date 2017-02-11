@@ -5,3 +5,4 @@ test
 .htmlhintrc
 .npmignore
 gulpfile.js
+node_modules
