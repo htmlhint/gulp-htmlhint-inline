@@ -23,11 +23,11 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.8",
-    "htmlhint": "^0.9.12",
+    "htmlhint": "^0.10.1",
     "through2": "^2.0.3"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-jshint": "^2.0.3"
   },
   "peerDependencies": {
