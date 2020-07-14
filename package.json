@@ -2,17 +2,17 @@
   "name": "gulp-htmlhint-inline",
   "description": "Gulp plugin for linting inline html",
   "version": "0.0.9",
-  "homepage": "https://github.com/kazu69/gulp-htmlhint-inline",
+  "homepage": "https://github.com/htmlhint/gulp-htmlhint-inline",
   "main": "index.js",
   "author": {
     "name": "kazu69"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kazu69/gulp-htmlhint-inline.git"
+    "url": "git://github.com/htmlhint/gulp-htmlhint-inline.git"
   },
   "bugs": {
-    "url": "https://github.com/kazu69/gulp-htmlhint-inline/issues"
+    "url": "https://github.com/htmlhint/gulp-htmlhint-inline/issues"
   },
   "licenses": "MIT",
   "engines": {
