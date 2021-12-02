@@ -19,7 +19,7 @@
     "node": ">= 4"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp"
   },
   "dependencies": {
     "gulp-util": "^3.0.8",

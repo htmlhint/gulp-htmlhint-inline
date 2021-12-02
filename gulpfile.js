@@ -11,7 +11,7 @@ gulp.task('lint', function () {
                 .pipe(jshint.reporter('fail'));
 });
 
-gulp.task('test', ['lint'], function () {
+gulp.task('test', function () {
     var options = {
         htmlhintrc: './.htmlhintrc',
         ignores: {
@@ -29,3 +29,5 @@ gulp.task('test', ['lint'], function () {
                 .pipe(htmlhint_inline.reporter())
                 .pipe(htmlhint_inline.reporter('fail'));
 });
+
+gulp.task('default', gulp.series('lint', 'test'));
