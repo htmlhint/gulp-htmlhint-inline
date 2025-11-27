@@ -5,7 +5,19 @@ updates:
     schedule:
       interval: monthly
     versioning-strategy: increase
+    groups:
+      all-dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - "patch"
+
   - package-ecosystem: github-actions
     directory: '/'
     schedule:
-      interval: weekly
+      interval: monthly
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+    open-pull-requests-limit: 2
